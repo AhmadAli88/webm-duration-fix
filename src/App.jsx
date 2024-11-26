@@ -2,6 +2,7 @@ import './App.css';
 import ScreenRecordingApp from './components/ScreenRecordingApp';
 import VideoProcessingPlatform from './components/VideoProcessingPlatform';
 import WebmVideoPlayer from './components/Webm';
+import WebmDurationFixUseCases from './components/WebmDurationFixUseCases';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <WebmVideoPlayer />
       <ScreenRecordingApp/>
       <VideoProcessingPlatform/>
+      <WebmDurationFixUseCases/>
     </div>
   );
 }
